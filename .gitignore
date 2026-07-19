@@ -67,3 +67,12 @@ vcpkg_installed/
 # test output & cache
 Testing/
 .cache/
+
+# Ignore ChampSim build binaries
+bin/
+.obj/
+
+# Ignore heavy trace files and results
+dpc3_traces/
+results_10M_instr/
+*.xz
